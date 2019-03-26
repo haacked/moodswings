@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MoodSwings</id>
+    <version>1.1.1</version>
+    <title>MoodSwings for VS</title>
+    <authors>haacked</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds a PowerShell command to the Visual Studio Package Manager Console to set the mood. Example:
+    
+    Set-Mood Presentation</description>
+    <license type="expression">MIT</license>
+    <releaseNotes>
+    1.1 - Initial release
+    1.1.1 - Fix the Rick mood. It was broken due to breaking changes in the APIs it used.
+    </releaseNotes>
+    <summary />
+  </metadata>
+</package>
